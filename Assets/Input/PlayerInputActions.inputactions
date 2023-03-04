@@ -1,1 +1,34 @@
-{}
+{
+    "name": "PlayerInputActions",
+    "maps": [
+        {
+            "name": "ChargeBar",
+            "id": "fa763f30-7691-4a14-93a7-6ccf7d08cc84",
+            "actions": [
+                {
+                    "name": "Charging",
+                    "type": "Button",
+                    "id": "06559581-1e34-4c47-ac24-47aaa4b14d11",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "181c321e-cf6d-4346-b15a-7eb86c84dd73",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Charging",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
